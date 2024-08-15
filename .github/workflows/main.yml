@@ -6,6 +6,9 @@ name: Deploy to AKS
       - main
     paths:
       - terraform/**
+      - my-app/**
+      - tony-capstone-project/**
+      
 jobs:
   terraform:
     runs-on: ubuntu-latest
