@@ -77,3 +77,7 @@ kubectl get secret prometheus-grafana -n <namespace> -o jsonpath="{.data.admin-p
 
 16. `also, for our alert manager, you can configure it to send you a notification whenever something goes wrong. so lets imagine we want to use Slack notification, you can set an alert rule on your grafana dashboard to do that. But you must first create a workspace on slack or you must be an admin of a slack workspace, then you will need to install a webhook on the slack workspace, that way you will be provided with your slack webhook api, the webhook api would be needed for the alerting rule when you are setting it  up on the grafana dashboard, so after succesfully setting it up, you can trigger it either by deleting a pod or anything and you will get a notification on your dedicated channel for the alert on your slack workspace`
 ![slack-notification](img/slack-notification.png)
+
+
+
+#images wont show, because this is a test page, we go dey alright
