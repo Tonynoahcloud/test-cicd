@@ -48,6 +48,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
 
 terraform {
   backend "azurerm" {
+    subscription_id = var.subscription_id
     resource_group_name   = "samuel-rg"
     storage_account_name  = "munachimso"
     container_name        = "tfstate"

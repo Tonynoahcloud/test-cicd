@@ -33,7 +33,7 @@ variable "tenant_id" {
   default = null
   
 }
-variable "client_id_id" {
+variable "client_id" {
   type = string
   default = null
   
